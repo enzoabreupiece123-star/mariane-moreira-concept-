@@ -1,0 +1,8 @@
+{
+  "name": "Mariane Moreira Concept",
+  "description": "Catálogo digital e sistema de pedidos online para a loja de roupas Mariane Moreira Concept com vitrine exclusiva, sacola de compras, checkout via WhatsApp e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
