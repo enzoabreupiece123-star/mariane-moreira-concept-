@@ -1,0 +1,226 @@
+{
+  "settings": {
+    "name": "Mariane Moreira Concept",
+    "slogan": "Elegância, sofisticação e autenticidade para o seu closet",
+    "description": "Coleções exclusivas de moda feminina desenvolvidas com cortes de alfaiataria impecáveis, tecidos nobres e acabamentos artesanais. Enviamos com amor para todo o Brasil.",
+    "logoUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=400&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
+    "primaryColor": "#881337",
+    "secondaryColor": "#4c0519",
+    "whatsapp": "11986641730",
+    "phone": "(11) 98664-1730",
+    "address": "Av. Paulista, 1842 - Sala 804",
+    "neighborhood": "Bela Vista",
+    "cityState": "São Paulo - SP",
+    "deliveryFee": 15,
+    "estimatedDeliveryTime": "Envio em até 24h",
+    "instagram": "@marianemoreiraconcept"
+  },
+  "schedule": [
+    {
+      "dayKey": "seg",
+      "label": "Segunda-feira",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "19:00"
+    },
+    {
+      "dayKey": "ter",
+      "label": "Terça-feira",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "19:00"
+    },
+    {
+      "dayKey": "qua",
+      "label": "Quarta-feira",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "19:00"
+    },
+    {
+      "dayKey": "qui",
+      "label": "Quinta-feira",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "19:00"
+    },
+    {
+      "dayKey": "sex",
+      "label": "Sexta-feira",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "19:00"
+    },
+    {
+      "dayKey": "sab",
+      "label": "Sábado",
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "16:00"
+    },
+    {
+      "dayKey": "dom",
+      "label": "Domingo",
+      "isOpen": false,
+      "openTime": "10:00",
+      "closeTime": "14:00"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-vestidos",
+      "name": "Vestidos & Macacões",
+      "order": 1
+    },
+    {
+      "id": "cat-alfaiataria",
+      "name": "Conjuntos & Alfaiataria",
+      "order": 2
+    },
+    {
+      "id": "cat-blusas",
+      "name": "Blusas & Camisas",
+      "order": 3
+    },
+    {
+      "id": "cat-calcas",
+      "name": "Calças & Saias",
+      "order": 4
+    },
+    {
+      "id": "cat-acessorios",
+      "name": "Acessórios & Bolsas",
+      "order": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-vestido-riviera",
+      "name": "Vestido Midi Linho Riviera",
+      "description": "Confeccionado em puro linho misto com decote clássico, fenda lateral discreta e faixa para amarração na cintura. Elegância atemporal para ocasiões especiais.",
+      "price": 289.9,
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-vestidos",
+      "isActive": true,
+      "stock": 12,
+      "featured": true,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Off White", "Terracota", "Verde Oliva"]
+    },
+    {
+      "id": "prod-vestido-esmeralda",
+      "name": "Vestido Longo Seda Esmeralda",
+      "description": "Vestido fluido em crepe acetinado com caimento impecável, decote costas em V profundo e movimento sutil de alta costura.",
+      "price": 359,
+      "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-vestidos",
+      "isActive": true,
+      "stock": 8,
+      "featured": true,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Verde Esmeralda", "Preto Clássico"]
+    },
+    {
+      "id": "prod-blazer-milao",
+      "name": "Blazer Alfaiataria Milão Oversized",
+      "description": "Corte estruturado moderno com ombreiras suaves, forro de cetim, botões forrados artesanais e bolsos embutidos. O clássico indispensável do closet contemporâneo.",
+      "price": 329.9,
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-alfaiataria",
+      "isActive": true,
+      "stock": 15,
+      "featured": true,
+      "sizes": ["P", "M", "G", "GG"],
+      "colors": ["Areia Nude", "Preto Chic"]
+    },
+    {
+      "id": "prod-conjunto-saint-tropez",
+      "name": "Conjunto Linho Saint-Tropez",
+      "description": "Cropped estruturado com amarração nas costas acompanhado de calça pantalona de cintura alta com cós anatômico e caimento fluido.",
+      "price": 349.9,
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-alfaiataria",
+      "isActive": true,
+      "stock": 10,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Cru Natural", "Terracota"]
+    },
+    {
+      "id": "prod-camisa-seda",
+      "name": "Camisa Seda Pura Marsala",
+      "description": "Toque macio e acetinado, gola social refinada, punhos alongados com botões madrepérola e caimento impecável para produções sofisticadas.",
+      "price": 199.9,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-blusas",
+      "isActive": true,
+      "stock": 20,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Marsala", "Branco Puro"]
+    },
+    {
+      "id": "prod-body-canelado",
+      "name": "Body Canelado Gola Alta Minimal",
+      "description": "Malha canelada premium de alta gramatura com toque aveludado e ajuste anatômico que valoriza a silhueta com extremo conforto.",
+      "price": 119,
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-blusas",
+      "isActive": true,
+      "stock": 25,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Nude Amêndoa", "Preto Onix", "Branco"]
+    },
+    {
+      "id": "prod-calca-wide-leg",
+      "name": "Calça Wide Leg Alfaiataria Supreme",
+      "description": "Modelagem wide leg ampla, cintura super alta com passantes de cinto duplos, pregas frontais refinadas e barra alongada elegante.",
+      "price": 249.9,
+      "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-calcas",
+      "isActive": true,
+      "stock": 14,
+      "sizes": ["36", "38", "40", "42"],
+      "colors": ["Bege Fendi", "Preto Onix"]
+    },
+    {
+      "id": "prod-saia-plissada",
+      "name": "Saia Midi Plissada Champanhe",
+      "description": "Plissado permanente com brilho acetinado sutil e cós elástico com acabamento fino para máximo conforto e sofisticação em eventos ou trabalho.",
+      "price": 219,
+      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-calcas",
+      "isActive": true,
+      "stock": 9,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Champanhe Dourado", "Prata Luz"]
+    },
+    {
+      "id": "prod-bolsa-baguete",
+      "name: "Bolsa Baguete Couro Legítimo Roma",
+      "description": "Feita à mão com couro nobre estruturado, fecho imantado geométrico dourado e alça ajustável para ombro ou tiracolo.",
+      "price": 279,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-acessorios",
+      "isActive": true,
+      "stock": 7,
+      "sizes": ["Tamanho Único"],
+      "colors": ["Caramelo Queimado", "Preto"]
+    },
+    {
+      "id": "prod-cinto-ouro",
+      "name": "Cinto Fivela Orgânica Banhada a Ouro",
+      "description": "Cinto de couro legítimo com fivela de design orgânico e acabamento escovado banhado a ouro 18k.",
+      "price": 99.9,
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=800&q=80",
+      "categoryId": "cat-acessorios",
+      "isActive": true,
+      "stock": 15,
+      "sizes": ["P", "M", "G"],
+      "colors": ["Dourado & Couro Preto", "Dourado & Couro Caramelo"]
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "passwordHash": "admin123"
+  }
+}
